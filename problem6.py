@@ -1,1 +1,6 @@
-
+file=input("Enter the file name:")
+f=open("file","w+")
+f.write("Akshay is a good guy")
+f.seek(0)
+print(f.read())
+f.close()
