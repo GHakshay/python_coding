@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 import  socket,time
-ip="0.0.0.0"
-port=8888   #  1024  -- 65535  free range of  port 
+ip="127.0.0.1"
+port=8000   #  1024  -- 65535  free range of  port 
 #  generate protocol  type of  socket
 
 s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)  #  udp docket  created 
